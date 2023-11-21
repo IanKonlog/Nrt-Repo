@@ -1,3 +1,4 @@
 template-file-path: template.yaml
-parameters: {}
+parameters: 
+    MyOutput: This is so stupid
 tags: {}
