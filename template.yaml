@@ -1,0 +1,12 @@
+Parameters:
+  MyOutput:
+    Type: String
+Resources:
+  NullResource:
+    Type: AWS::CloudFormation::WaitConditionHandle
+  GitSyncBucket:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+Outputs:
+  CLIOutput:
+    Value: "I am really good" 
